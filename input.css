@@ -21,8 +21,6 @@ body{
    
 }
 
-
-
 .social1:hover{
     filter: invert(53%)  sepia(68%) contrast(94%) saturate(300%) brightness(101%) hue-rotate(101deg);
     
