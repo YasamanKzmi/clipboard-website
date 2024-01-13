@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    background-image:url('../images/white-elegant-texture-background_23-2148434267.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.section-container{
+    @apply flex flex-col items-center max-w-4xl p-12 mx-auto mt-8 mb-12 text-center select-none space-y-9;
+}
+
+@layer base {
+    h2{
+         @apply text-4xl font-bold tracking-wide text-darkGrayishBlue;
+    }
+   
+}
+
+
+
+.social1:hover{
+    filter: invert(53%)  sepia(68%) contrast(94%) saturate(300%) brightness(101%) hue-rotate(101deg);
+    
+}
